@@ -42,4 +42,13 @@ const pass = "test1234";
 const productId = "0000000-0000-0000-00000000000";
 const yourFaxNumber = "2223334444"; //use your fax number
 ```
+
+
+Now you want to save the file to a location on your hard drive. You will also want to make sure to allow Cross-domain queries on your location web browser. Normally this would be bad but this is pretty commonplace for debugging and coding react/angular/es application. You can use the extension above to disable Cross site scripting and allow jQuery to send a request to the API.
+
+When you run this script correctly you should see the following in the console:
+```json
+   "Success": true,
+   "Result": "6b98617b-932c-46d7-8800-a5325640c91b"
+```
 If you have any questions reach out to us at develop@westfax.com and we'll give you a hand.
